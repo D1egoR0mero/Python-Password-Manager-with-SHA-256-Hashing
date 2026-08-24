@@ -29,7 +29,7 @@ and delete encrypted passwords for websites, protected by a master password.
 
 Install dependencies:
 
-```bash
+```bash`
 pip install cryptography pyperclip
 
 
