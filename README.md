@@ -36,7 +36,7 @@ Install dependencies:
 Usage:
 
 Run
-`python password.py'
+`python password.py`
 in the same directory as the password.py file
 
 Now, the terminal should look like this:
