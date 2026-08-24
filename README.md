@@ -29,8 +29,8 @@ and delete encrypted passwords for websites, protected by a master password.
 
 Install dependencies:
 
-```bash`
-pip install cryptography pyperclip
+`bash
+pip install cryptography pyperclip`
 
 
 Usage:
