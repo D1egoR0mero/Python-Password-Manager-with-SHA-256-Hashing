@@ -22,25 +22,31 @@ and delete encrypted passwords for websites, protected by a master password.
 
 ### Requirements
 
+- VS Code or similar text editor
 - Python 3.8+
+- pip via `python -m ensurepip --upgrade`
 - Modules:
   - `cryptography`
   - `pyperclip` 
 
+
 Install dependencies:
-
-`bash
-pip install cryptography pyperclip`
-
+`python -m pip install cryptography pyperclip`
 
 Usage:
+
+Run
+`python password.py'
+in the same directory as the password.py file
+
 Now, the terminal should look like this:
 1. Set master password
 2. Login
 3. Exit
 The user can only enter: 1, 2, or 3. 
-The user must set a master password, enter 1, for the program before being able to actually store passwords.
+The user must set a master password for the program before being able to actually store passwords. (Enter 1 first)
 Once a master password is set, enter 2 to login. Re-enter the set master password.
+
 Exit, enter 3, just means to stop running.
 After that, the terminal will look like this: 
 1. Add Password
